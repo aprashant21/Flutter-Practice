@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(
           primarySwatch: Colors.lime,
-          fontFamily: GoogleFonts.arvo().fontFamily
-      ),
-      darkTheme: ThemeData(primarySwatch: Colors.lime,
+          fontFamily: GoogleFonts.arvo().fontFamily),
+      darkTheme: ThemeData(
+        primarySwatch: Colors.lime,
       ),
       initialRoute: MyRoutes.loginRoute,
       routes: {
