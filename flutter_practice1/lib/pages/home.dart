@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_practice1/widgets/Drawer.dart';
+import 'package:flutter_practice1/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   final String name = "Prashant Adhikari";
@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("First Flutter App"),
+        title: Text("Smart Study"),
       ),
       body: Center(
         child: Container(
