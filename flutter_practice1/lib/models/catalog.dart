@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class CatalogModel {
-  static final Items = [
+  static final items = [
     Item(
         id: 1,
-        name: "Prashant Adhikari",
-        desc: "I am Prashant Adhikari from mahadevsthan, kathmandu.",
+        name: "Amir Khan",
+        desc: "Amir Khan is a great indian actor.",
         price: 200,
         color: "#33505a",
         image:
@@ -21,5 +21,11 @@ class Item {
   final String color;
   final String image;
 
-  Item({required this.id, required this.name, required this.desc, required this.price, required this.color, required this.image});
+  Item(
+      {required this.id,
+      required this.name,
+      required this.desc,
+      required this.price,
+      required this.color,
+      required this.image});
 }
