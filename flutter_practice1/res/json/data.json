@@ -1,0 +1,89 @@
+{
+    "books":[
+        {
+            "id":1,
+            "name":"It Ends with Us: A Novel",
+            "desc":"In this “brave and heartbreaking novel that digs its claws into you and doesn’t let go, long after you’ve finished it",
+            "price":25,
+            "image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1466643696i/19502975.jpg"
+        },
+        {
+            "id":2,
+            "name":"The Seven Husbands of Evelyn Hugo",
+            "desc":"The Seven Husbands of Evelyn Hugo is a historical fiction novel by American author Taylor Jenkins Reid and published by Atria Books in 2017.",
+            "price":35,
+            "image":"https://images-na.ssl-images-amazon.com/images/I/716Tlym5yRL.jpg"
+        },
+        {
+            "id":3,
+            "name":"Reminders of Him: A Novel",
+            "desc":"After serving five years in prison for a tragic mistake, Kenna Rowan returns to the town where it all went wrong",
+            "price":45,
+            "image":"https://images-na.ssl-images-amazon.com/images/I/617uZq23IPL.jpg"
+        },
+        {
+            "id":4,
+            "name":"The Midnight Library",
+            "desc":"The Midnight Library is a fantasy novel by Matt Haig, published on 13 August 2020 by Canongate Books",
+            "price":75,
+            "image":"https://m.media-amazon.com/images/I/71Qsix5gbYL.jpg"
+        },
+        {
+            "id":5,
+            "name":"The Last Thing He Told Me",
+            "desc":"The Last Thing He Told Me is a mystery-thriller novel by Laura Dave, published May 4, 2021 by Simon & Schuster.",
+            "price":54,
+            "image":"https://images-na.ssl-images-amazon.com/images/I/91txiCpxSSL.jpg"
+        
+        },
+        {
+            "id":6,
+            "name":"Where the Crawdads Sing",
+            "desc":"Where the Crawdads Sing is a 2018 novel by American author Delia Owens.",
+            "price":54,
+            "image":"https://static-01.daraz.com.np/p/e859cb008f778cb35a1a940e444977a9.jpg"
+        },
+        {
+            "id":7,
+            "name":"To Kill a Mockingbird",
+            "desc":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful.",
+            "price":85,
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg"
+        },
+        {
+            "id":8,
+            "name":"Ugly Love",
+            "desc":"When Tate Collins finds airline pilot Miles Archer passed out in front of her apartment door, it is definitely not love at first sight",
+            "price":58,
+            "image":"https://images-na.ssl-images-amazon.com/images/I/81LIZiMop1L.jpg"
+        },
+            {
+            "id":9,
+            "name":"Lord of the Flies",
+            "desc":"Lord of the Flies is a 1954 debut novel by Nobel Prize-winning British author William Golding. ",
+            "price":64,
+            "image":"https://images-na.ssl-images-amazon.com/images/I/81FRohjSY7L.jpg"
+            },
+            {
+                "id":10,
+                "name":"The Love Hypothesis",
+                "desc":"The Instant New York Times Bestseller and TikTok Sensation!As seen on THE VIEW!A BuzzFeed Best Summer Read of 2021 When a fake relationship between scientists meets the irresistible force of attraction ",
+                "price":100,
+                "image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611937942l/56732449.jpg"
+            },
+            {
+                "id":11,
+                "name":"November 9",
+                "desc":"Crave presents the ultimate book boyfriend experience with this beautiful four-color illustrated edition of November 9 ",
+                "price":120,
+                "image":"https://target.scene7.com/is/image/Target/GUEST_8cccb206-6578-46cc-8cfa-6a8e53d3beb4?wid=488&hei=488&fmt=pjpeg"
+            },
+            {
+                "id":12,
+                "name":"Atomic Habits",
+                "desc":"A remarkable book that effectively conveys how small (atomic) changes to ones daily routine can yield unprecedented results in the long run.",
+                "price":140,
+                "image":"https://images-na.ssl-images-amazon.com/images/I/51-nXsSRfZL._SX328_BO1,204,203,200_.jpg"
+            }
+    ]
+}
