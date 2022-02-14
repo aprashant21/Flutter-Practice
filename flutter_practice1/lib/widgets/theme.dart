@@ -18,4 +18,9 @@ class MyTheme {
           )));
 
   static ThemeData get darkTheme => ThemeData(brightness: Brightness.dark);
+
+  //Colors
+  static Color creamColor = Color(0xfff5f5f5);
+  static Color darkBlue = Color(0xff403b58);
+
 }
