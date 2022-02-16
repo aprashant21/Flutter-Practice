@@ -17,12 +17,13 @@ class CatalogList extends StatelessWidget {
         final catalog = CatalogModel.items[index];
         return InkWell(
           onTap: () => Navigator.push(
-            context, MaterialPageRoute(
-              builder: (context)=> HomeDetails(catalog: catalog,)
-          )
-          ),
-          child: CatalogItem(catalog: catalog)
-          );
+              context,
+              MaterialPageRoute(
+                  builder: (context) => HomeDetails(
+                        catalog: catalog,
+                      ))),
+          child: CatalogItem(catalog: catalog),
+        );
       },
     );
   }
@@ -42,8 +43,8 @@ class CatalogItem extends StatelessWidget {
         child: Row(
       children: [
         Hero(
-          tag: Key(catalog.id.toString()),
-          child: CatalogImage(image: catalog.image)),
+            tag: Key(catalog.id.toString()),
+            child: CatalogImage(image: catalog.image)),
         Expanded(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -60,7 +61,7 @@ class CatalogItem extends StatelessWidget {
                 "\$${catalog.price}".text.make(),
                 ElevatedButton(
                   onPressed: () {},
-                  child: "Buy".text.make(),
+                  child: "Add to cart".text.make(),
                   style: ButtonStyle(
                       backgroundColor:
                           MaterialStateProperty.all(MyTheme.darkBlue),
