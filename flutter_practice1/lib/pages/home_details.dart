@@ -18,20 +18,20 @@ class HomeDetails extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
       ),
-      backgroundColor: MyTheme.creamColor,
+      backgroundColor: context.canvasColor,
       bottomNavigationBar:Container(
-        color: Colors.white,
+        color: context.cardColor,
         child: ButtonBar(
                 alignment: MainAxisAlignment.spaceBetween,
                 buttonPadding: EdgeInsets.zero,
                 children: [
-                  "\$${catalog.price}".text.xl3.bold.color(MyTheme.darkBlue).make(),
+                  "\$${catalog.price}".text.xl3.bold.color(Colors.red.shade400).make(),
                   ElevatedButton(
                     onPressed: () {},
                     child: "Add to Cart".text.bold.xl.make(),
                     style: ButtonStyle(
                         backgroundColor:
-                            MaterialStateProperty.all(MyTheme.darkBlue),
+                            MaterialStateProperty.all(context.theme.buttonColor),
                         shape: MaterialStateProperty.all(StadiumBorder())),
                   )
                 ],
@@ -51,11 +51,11 @@ class HomeDetails extends StatelessWidget {
                   arcType: VxArcType.CONVEY,
                   edge: VxEdge.TOP,
                   child: Container(
-                  color: Colors.white,
+                  color: context.cardColor,
                   width: context.screenWidth,
                   child: Column(
                     children: [
-                       catalog.name.text.xl3.color(MyTheme.darkBlue).bold.make().pOnly(left: 10),
+                       catalog.name.text.xl3.color(context.accentColor).bold.make().pOnly(left: 10),
                         2.heightBox,
                         catalog.desc.text.xl.make().p(10),
                         10.heightBox,

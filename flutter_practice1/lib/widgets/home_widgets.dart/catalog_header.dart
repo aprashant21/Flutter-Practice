@@ -12,7 +12,7 @@ class CatalogHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        "Smart Study".text.xl5.color(MyTheme.darkBlue).make(),
+        "Smart Study".text.xl5.color(context.theme.accentColor).make(),
         "Treding Books".text.xl2.make(),
       ],
     );
