@@ -8,6 +8,7 @@ import 'package:velocity_x/velocity_x.dart';
 import 'package:flutter_practice1/models/catalog.dart';
 import '../widgets/home_widgets.dart/catalog_header.dart';
 import '../widgets/home_widgets.dart/catalog_list.dart';
+import 'package:http/http.dart' as http;
 
 class HomePage extends StatefulWidget {
   @override
@@ -15,6 +16,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  
   @override
   void initState() {
     // TODO: implement initState
@@ -38,21 +40,22 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         backgroundColor: context.canvasColor,
         floatingActionButton: VxBuilder(
-          builder:(context,dynamic,status_)=> FloatingActionButton(
+          builder: (context, dynamic, status_) => FloatingActionButton(
             backgroundColor: context.theme.buttonColor,
             onPressed: (() {
               Navigator.pushNamed(context, '/cart');
             }),
-            child: Icon(CupertinoIcons.cart,color: Colors.white,),
+            child: Icon(
+              CupertinoIcons.cart,
+              color: Colors.white,
+            ),
           ).badge(
-            color: Vx.blue500,
-            size: 22,
-            count: _cart.items.length,
-            textStyle: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.bold
-            )
-          ), mutations: {AddMutation,RemoveMutation},
+              color: Vx.purple600,
+              size: 22,
+              count: _cart.items.length,
+              textStyle:
+                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          mutations: {AddMutation, RemoveMutation},
         ),
         body: SafeArea(
           child: Container(
