@@ -5,10 +5,6 @@ import 'package:flutter/material.dart';
 class CatalogModel {
   static List<Item> items = [];
 
-  //singleton class
-  static final catModel = CatalogModel._internal();
-  CatalogModel._internal();
-  factory CatalogModel() => catModel;
 
   //get item by ID
   Item getById(int id) =>

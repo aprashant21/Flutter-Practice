@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice1/core/store.dart';
 import 'package:flutter_practice1/pages/cart.dart';
 import 'package:flutter_practice1/pages/home.dart';
 import 'package:flutter_practice1/pages/login.dart';
 import 'package:flutter_practice1/utils/routes.dart';
 import 'package:flutter_practice1/widgets/theme.dart';
+import 'package:velocity_x/velocity_x.dart';
 import 'pages/home.dart';
+import 'core/store.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(VxState(store: MyStore(), child: MyApp()));
 }
 
 // ignore: use_key_in_widget_constructors

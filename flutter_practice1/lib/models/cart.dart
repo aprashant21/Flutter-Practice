@@ -4,10 +4,6 @@ class CartModel {
   //catalog field
   late CatalogModel _catalog;
 
-//singleton class
-  static final cartModel = CartModel._internal();
-  CartModel._internal();
-  factory CartModel() => cartModel;
 
   //collection of IDs - Store Ids of each item
   final List<int> _itemIds = [];
